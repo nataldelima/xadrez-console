@@ -14,4 +14,9 @@ public class Peca
         this.tab = tab;
         this.qteMovimentos = 0;
     }
+
+    public void imcrementarQteMovimentos()
+    {
+        qteMovimentos++;
+    }
 }
