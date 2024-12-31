@@ -28,7 +28,7 @@ public class Tela
         ConsoleColor fundoAlterado = ConsoleColor.DarkGray;
         for (int i = 0; i < tab.linhas; i++)
         {
-            Console.Write(9 - i + " ");
+            Console.Write(8 - i + " ");
             for (int j = 0; j < tab.colunas; j++)
             {
                 if (posicoesPossiveis[i, j])
