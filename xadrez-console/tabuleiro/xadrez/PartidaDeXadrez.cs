@@ -19,7 +19,7 @@ public class PartidaDeXadrez
     public void ExecutaMovimento(Posicao origem, Posicao destino)
     {
         Peca p = tab.retirarPeca(origem);
-        p.imcrementarQteMovimentos();
+        p.incrementarQteMovimentos();
         Peca pecaCapturada = tab.retirarPeca(destino);
         tab.colocarPeca(p, destino);
     }
